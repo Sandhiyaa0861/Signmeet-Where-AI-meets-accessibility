@@ -1,15 +1,15 @@
-# Signmeet-Where-AI-meets-accessibility
 
-AI-based real-time communication platform for deaf and non-deaf users.
+> **Sign Meet – AI Meets Accessibility**
+> A real-time AI-powered communication platform that bridges the gap between deaf and non-deaf users using gesture recognition, speech-to-text conversion, and animated Indian Sign Language avatars.
+### 🧾 **Full Description 
 
-## Features
-- Sign Language Recognition using TCN and MediaPipe
-- Speech Recognition using HMM and MFCC
-- Avatar Module for Indian Sign Language
-- Flask backend + Jitsi API integration
+**Sign Meet** is an inclusive virtual meeting tool that enables seamless interaction between hearing and speech-impaired individuals and others.
+It uses:
 
-## Tech Stack
-Python, Flask, OpenCV, MediaPipe, TensorFlow, scikit-learn, MySQL
+* 🖐️ **MediaPipe + TCN** for real-time sign language recognition
+* 🎤 **MFCC + HMM** for accurate speech-to-text conversion
+* 🧍 **Avatar Module** to convert text into Indian Sign Language animations
+* 🎥 Integrated with **Jitsi API** for video conferencing
 
-## Algoriths used
-HMM,CNN(Convolutional Neural Network),MFCC
+**Tech Stack**: Python, Flask, TensorFlow, MediaPipe, OpenCV, scikit-learn, MySQL
+
